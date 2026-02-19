@@ -4,7 +4,6 @@ import Projects from '@/components/Projects';
 import About from '@/components/About';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
-import styles from './globals.css';
 import Timeline from '@/components/Timeline';
 
 export default function Home() {
