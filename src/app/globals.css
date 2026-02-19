@@ -1,28 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
-  --background: #050505;
-  --foreground: #ffffff;
-  --accent: #10b981; /* Emerald Green - looks great on dark mode */
+  --background: #f8fafc; /* Clean, soft off-white */
+  --foreground: #0f172a; /* Deep slate for high contrast */
 }
 
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: 'Inter', sans-serif;
-  scroll-behavior: smooth;
-}
-
-.glass-card {
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: all 0.3s ease;
-}
-
-.glass-card:hover {
-  border-color: var(--accent);
-  transform: translateY(-5px);
+  font-family: Arial, Helvetica, sans-serif;
 }
