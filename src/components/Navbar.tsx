@@ -16,7 +16,7 @@ export default function Navbar() {
 
         <div className="flex gap-4 text-slate-400">
           <a href="https://github.com/justus-00" target="_blank" rel="noreferrer"><Github size={20} className="hover:text-emerald-600 transition" /></a>
-          <a href="https://www.linkedin.com/in/justus-onyiego-397914346/" target="_blank" rel="noreferrer"><Linkedin size={20} className="hover:text-emerald-600 transition" /></a>
+          <a href="https://www.linkedin.com/in/justus-obisa-81087139b/" target="_blank" rel="noreferrer"><Linkedin size={20} className="hover:text-emerald-600 transition" /></a>
         </div>
       </div>
     </nav>

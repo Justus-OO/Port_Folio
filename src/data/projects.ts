@@ -6,7 +6,7 @@ export const projects = [
     tech: ["Angular", "Spring Boot", "Java", "SQL"],
     link: "https://github.com/justus-00", // Update with actual Moonlight repo link
     external: "#",
-    image: "/moonlight.jpg"
+    image: "/moonlight.png"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const projects = [
     tech: ["React", "Spring Boot", "PostgreSQL", "SQLite"],
     link: "https://github.com/justus-00/InvenStock",
     external: "https://inven-stock-system.onrender.com",
-    image: "/invenstock.jpg" 
+    image: "/invenstock.png" 
   },
   {
     id: 3,
@@ -23,8 +23,8 @@ export const projects = [
     description: "A highly interactive, modern Aviator game web application featuring real-time state management, seamless user experiences, and dynamic UI rendering.",
     tech: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
     link: "https://github.com/justus-00/betmia",
-    external: "#",
-    image: "/betmia.jpg"
+    external: "https://betmia.onrender.com/",
+    image: "/betmia.png"
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const projects = [
     tech: ["React", "Node.js", "MongoDB"],
     link: "https://github.com/justus-00", 
     external: "https://furni-cha.onrender.com",
-    image: "/furnicha.jpg"
+    image: "/furnicha.png"
   },
   {
     id: 5,
@@ -42,6 +42,6 @@ export const projects = [
     tech: ["Java", "Android Studio", "Firebase"],
     link: "https://github.com/Jun-Tsu/NovaBox",
     external: "https://github.com/Jun-Tsu/NovaBox",
-    image: "/novabox.jpg"
+    image: "/novabox.png"
   }
 ];
