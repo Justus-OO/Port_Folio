@@ -4,7 +4,7 @@ export const projects = [
     title: "Moonlight PMS",
     description: "An enterprise-grade Property Management System engineered to automate rent collection, tenant tracking, and maintenance sorting.",
     tech: ["Angular", "Spring Boot", "Java", "SQL"],
-    link: "https://github.com/justus-00", // Update with actual Moonlight repo link
+    link: "https://moonlight-p-m-s.onrender.com/", // Update with actual Moonlight repo link
     external: "#",
     image: "/moonlight.png"
   },
@@ -43,5 +43,25 @@ export const projects = [
     link: "https://github.com/Jun-Tsu/NovaBox",
     external: "https://github.com/Jun-Tsu/NovaBox",
     image: "/novabox.png"
+  },
+
+    {
+    id: 6,
+    title: "Hotspot/WIFI Manager",
+    description: "A web application engineered for managing and monitoring wireless networks, featuring real-time data syncing and secure user authentication.",
+    tech: ["Angular", "Vs Code", "Nodejs", "MongoDB"],
+    link: "https://github.com/Justus-OO/Tech",
+    external: "https://justus-oo.github.io/Tech/h",
+    image: "/hotspot.png"
+  },
+  {
+    id: 7,
+    title: "SmartNotes Mobbile",
+    description: "A mobile application with a sleek and intuitive interface, designed to help users effortlessly capture and organize their studies, , and important information on the go.",
+    tech: ["Java", "Android Studio", "Firebase"],
+    link: "https://github.com/Justus-OO/SmartNotes",
+    external: "https://github.com/Justus-OO/SmartNotes",
+    image: "/smartnotes.png"
   }
+
 ];

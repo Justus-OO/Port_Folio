@@ -27,10 +27,15 @@ export default function Projects() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: index * 0.1 }}
-            className="group flex flex-col bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:border-emerald-300 transition-all duration-300 overflow-hidden"
+            className="group relative flex flex-col bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:border-emerald-300 transition-all duration-300 overflow-hidden"
           >
-            {/* Image Section */}
-            <div className="relative h-60 w-full overflow-hidden bg-slate-100 border-b border-slate-200">
+            {/* 1. Make the Image a direct link to the Live Demo */}
+            <a 
+              href={project.external !== "#" ? project.external : project.link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="relative h-60 w-full overflow-hidden bg-slate-100 border-b border-slate-200 block"
+            >
               <div className="absolute inset-0 flex items-center justify-center text-slate-300 z-0">
                 <FolderGit2 size={80} strokeWidth={1} />
               </div>
@@ -40,7 +45,13 @@ export default function Projects() {
                 className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500 z-10"
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}
               />
-            </div>
+              {/* Hover Overlay */}
+              <div className="absolute inset-0 bg-emerald-900/10 opacity-0 group-hover:opacity-100 transition-opacity z-20 flex items-center justify-center">
+                 <span className="bg-white text-slate-900 px-4 py-2 rounded-full text-sm font-bold shadow-xl transform translate-y-4 group-hover:translate-y-0 transition-transform">
+                   View Project
+                 </span>
+              </div>
+            </a>
 
             {/* Content Section */}
             <div className="p-8 flex flex-col flex-grow">
@@ -48,9 +59,29 @@ export default function Projects() {
                 <h3 className="text-2xl font-bold text-slate-900 group-hover:text-emerald-700 transition-colors">
                   {project.title}
                 </h3>
-                <div className="flex gap-4 text-slate-400">
-                  <a href={project.link} target="_blank" rel="noreferrer" className="hover:text-emerald-600 hover:scale-110 transition-all"><Github size={22} /></a>
-                  <a href={project.external} target="_blank" rel="noreferrer" className="hover:text-emerald-600 hover:scale-110 transition-all"><ExternalLink size={22} /></a>
+                
+                {/* 2. Enhanced Link Action Buttons */}
+                <div className="flex gap-4 text-slate-400 z-30">
+                  <a 
+                    href={project.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="hover:text-emerald-600 hover:scale-110 transition-all p-1"
+                    title="View Source Code"
+                  >
+                    <Github size={22} />
+                  </a>
+                  {project.external !== "#" && (
+                    <a 
+                      href={project.external} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="hover:text-emerald-600 hover:scale-110 transition-all p-1"
+                      title="Live Demo"
+                    >
+                      <ExternalLink size={22} />
+                    </a>
+                  )}
                 </div>
               </div>
               
