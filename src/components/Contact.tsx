@@ -4,8 +4,8 @@ import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 export default function Contact() {
   const contactDetails = [
-    { icon: <Mail className="w-5 h-5 text-emerald-600" />, label: "Email", value: "justusobisa5@gmail.com", href: "mailto:justusobisa5@gmail.com" },
-    { icon: <Phone className="w-5 h-5 text-cyan-600" />, label: "Phone", value: "+254 715 980 740", href: "tel:+254715980740" },
+    { icon: <Mail className="w-5 h-5 text-emerald-600" />, label: "Email", value: "kasinaesther19@gmail.com", href: "mailto:kasinaesther19@gmail.com" },
+    { icon: <Phone className="w-5 h-5 text-cyan-600" />, label: "Phone", value: "+254 700 641 670", href: "tel:+254715980740" },
     { icon: <MapPin className="w-5 h-5 text-purple-600" />, label: "Location", value: "Nairobi, Kenya", href: "#" }
   ];
 
@@ -29,7 +29,7 @@ export default function Contact() {
               I am actively exploring new engineering opportunities, graduate programs, and challenging projects. Whether you have an architectural problem to solve or just want to connect, my inbox is always open.
             </p>
             
-            <a href="mailto:justusobisa5@gmail.com" className="group inline-flex items-center justify-center gap-3 px-8 py-4 font-bold text-white transition-all duration-300 bg-emerald-600 rounded-xl hover:bg-emerald-700 hover:shadow-lg">
+            <a href="mailto:kasinaesther19@gmail.com" className="group inline-flex items-center justify-center gap-3 px-8 py-4 font-bold text-white transition-all duration-300 bg-emerald-600 rounded-xl hover:bg-emerald-700 hover:shadow-lg">
               <Send className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
               Say Hello
             </a>

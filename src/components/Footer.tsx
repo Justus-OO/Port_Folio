@@ -27,7 +27,7 @@ export default function Footer() {
         {/* Social Links Matrix */}
         <div className="flex gap-6 mb-12">
           <a 
-            href="https://github.com/justus-00" 
+           // href="https://github.com/justus-00" 
             target="_blank" 
             rel="noreferrer" 
             className="group p-4 rounded-2xl bg-white border border-slate-200 hover:border-emerald-300 hover:shadow-md transition-all duration-300"
@@ -35,7 +35,7 @@ export default function Footer() {
             <Github size={24} className="text-slate-500 group-hover:text-emerald-600 group-hover:scale-110 transition-all" />
           </a>
           <a 
-            href="https://www.linkedin.com/in/justus-onyiego-397914346/" 
+           // href="https://www.linkedin.com/in/justus-onyiego-397914346/" 
             target="_blank" 
             rel="noreferrer" 
             className="group p-4 rounded-2xl bg-white border border-slate-200 hover:border-cyan-300 hover:shadow-md transition-all duration-300"
@@ -58,7 +58,7 @@ export default function Footer() {
           
           {/* Copyright */}
           <p className="text-slate-500 text-sm font-medium tracking-tight text-center md:text-left mb-6 md:mb-0">
-            Architected & Built by <span className="text-slate-900 font-bold">Justus Obisa</span> © {new Date().getFullYear()}
+            Architected & Built by <span className="text-slate-900 font-bold">Esther Mawia</span> © {new Date().getFullYear()}
           </p>
 
           {/* System Online Text */}

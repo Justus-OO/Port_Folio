@@ -27,22 +27,40 @@ export default function Timeline() {
       icon: <Terminal className="w-5 h-5 text-emerald-600" />, 
       tags: ["Full-Stack", "Latency Optimization", "PostgreSQL", "System Design"]
     },
-    {
+
+        {
       year: "2021 - 2025", 
       title: "B.Sc. Computer Science", 
-      organization: "Masinde Muliro University",
-      description: "Specialized in Machine Learning and Algorithms. Developed scalable neural networks with TensorFlow and Scikit-learn while leading programming initiatives at the MMUST Computer Science Club.",
+      organization: "Kenyatta University",
+      description: "Specialized in Machine Learning and Algorithms. Developed scalable neural networks with TensorFlow and Scikit-learn while leading programming initiatives at the KU Computer Science Club.",
       icon: <GraduationCap className="w-5 h-5 text-cyan-600" />, 
       tags: ["Python", "TensorFlow", "Scikit-learn", "Neural Networks", "Algorithms"]
     },
-    {
+    // {
+    //   year: "2021 - 2025", 
+    //   title: "B.Sc. Computer Science", 
+    //   organization: "Masinde Muliro University",
+    //   description: "Specialized in Machine Learning and Algorithms. Developed scalable neural networks with TensorFlow and Scikit-learn while leading programming initiatives at the KU Computer Science Club.",
+    //   icon: <GraduationCap className="w-5 h-5 text-cyan-600" />, 
+    //   tags: ["Python", "TensorFlow", "Scikit-learn", "Neural Networks", "Algorithms"]
+    // },
+
+     {
       year: "2017 - 2020", 
       title: "Academic Foundation", 
-      organization: "Nyambaria High School",
-      description: "Established a core foundation in computational logic and advanced mathematics in Nyamira, setting the stage for a career in complex software engineering.",
+      organization: "Karima girls High School",
+      description: "Established a core foundation in computational logic and advanced mathematics in Nyandarua, setting the stage for a career in complex software engineering.",
       icon: <Rocket className="w-5 h-5 text-purple-600" />, 
       tags: ["Mathematics", "Physics", "Computing Fundamentals"]
     },
+    // {
+    //   year: "2017 - 2020", 
+    //   title: "Academic Foundation", 
+    //   organization: "Nyambaria High School",
+    //   description: "Established a core foundation in computational logic and advanced mathematics in Nyamira, setting the stage for a career in complex software engineering.",
+    //   icon: <Rocket className="w-5 h-5 text-purple-600" />, 
+    //   tags: ["Mathematics", "Physics", "Computing Fundamentals"]
+    // },
     {
       year: "Specialization", 
       title: "Cybersecurity & Networking", 

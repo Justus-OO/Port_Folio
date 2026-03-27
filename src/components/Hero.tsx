@@ -53,7 +53,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-lg md:text-xl text-slate-600 mb-10 leading-relaxed max-w-2xl mx-auto"
         >
-          I am <strong className="text-slate-900 font-semibold">Justus Obisa</strong>, a Computer Science Graduate. 
+          I am <strong className="text-slate-900 font-semibold">Esther Mawia</strong>, a Computer Science Graduate. 
           Specializing in enterprise-grade POS systems, Property Management platforms, 
           and high-performance modern web applications.
         </motion.p>
