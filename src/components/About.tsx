@@ -57,7 +57,7 @@ export default function About() {
               <h3 className="text-lg font-bold text-slate-900 self-center">Engineering Depth</h3>
             </div>
             <p className="text-slate-600 leading-relaxed text-sm md:text-base">
-              I am a Software Engineer and Computer Science graduate from Masinde Muliro University. Since 2022, I have mastered a diverse stack of programming languages to build robust, scalable applications from the ground up. 
+              I am a Software Engineer and Computer Science graduate from kenyatta University. Since 2022, I have mastered a diverse stack of programming languages to build robust, scalable applications from the ground up. 
             </p>
           </motion.div>
 

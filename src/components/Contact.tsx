@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Send } from 'lucide-react';
 export default function Contact() {
   const contactDetails = [
     { icon: <Mail className="w-5 h-5 text-emerald-600" />, label: "Email", value: "kasinaesther19@gmail.com", href: "mailto:kasinaesther19@gmail.com" },
-    { icon: <Phone className="w-5 h-5 text-cyan-600" />, label: "Phone", value: "+254 700 641 670", href: "tel:+254715980740" },
+    { icon: <Phone className="w-5 h-5 text-cyan-600" />, label: "Phone", value: "+254 700 641 670", href: "tel:+254700641670" },
     { icon: <MapPin className="w-5 h-5 text-purple-600" />, label: "Location", value: "Nairobi, Kenya", href: "#" }
   ];
 
