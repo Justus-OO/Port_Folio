@@ -13,7 +13,7 @@ export const projects = [
     title: "InvenStock POS",
     description: "A full-stack hybrid application for inventory and point of sale management. Integrated PostgreSQL for cloud syncing and SQLite for efficient local data handling.",
     tech: ["React", "Spring Boot", "PostgreSQL", "SQLite"],
-    link: "https://github.com/justus-00/InvenStock",
+    //link: "https://github.com/justus-00/InvenStock",
     external: "https://inven-stock-system.onrender.com",
     image: "/invenstock.png" 
   },
@@ -22,7 +22,7 @@ export const projects = [
     title: "Betmia Aviator",
     description: "A highly interactive, modern Aviator game web application featuring real-time state management, seamless user experiences, and dynamic UI rendering.",
     tech: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
-    link: "https://github.com/justus-00/betmia",
+   // link: "https://github.com/justus-00/betmia",
     external: "https://betmia.onrender.com/",
     image: "/betmia.png"
   },
@@ -31,7 +31,7 @@ export const projects = [
     title: "Furni-Cha E-Commerce",
     description: "A smart furniture e-commerce platform featuring offline storage capabilities and seamless cloud synchronization using NoSQL databases.",
     tech: ["React", "Node.js", "MongoDB"],
-    link: "https://github.com/justus-00", 
+    // link: "https://github.com/justus-00", 
     external: "https://furni-cha.onrender.com",
     image: "/furnicha.png"
   },
@@ -40,8 +40,8 @@ export const projects = [
     title: "NovaBox Mobile",
     description: "A mobile application engineered for streaming live content over the internet, featuring real-time data syncing and secure user authentication.",
     tech: ["Java", "Android Studio", "Firebase"],
-    link: "https://github.com/Jun-Tsu/NovaBox",
-    external: "https://github.com/Jun-Tsu/NovaBox",
+    // link: "https://github.com/Jun-Tsu/NovaBox",
+    // external: "https://github.com/Jun-Tsu/NovaBox",
     image: "/novabox.png"
   },
 
@@ -50,8 +50,8 @@ export const projects = [
     title: "Hotspot/WIFI Manager",
     description: "A web application engineered for managing and monitoring wireless networks, featuring real-time data syncing and secure user authentication.",
     tech: ["Angular", "Vs Code", "Nodejs", "MongoDB"],
-    link: "https://github.com/Justus-OO/Tech",
-    external: "https://justus-oo.github.io/Tech/h",
+    // link: "https://github.com/Justus-OO/Tech",
+    // external: "https://justus-oo.github.io/Tech/h",
     image: "/hotspot.png"
   },
   {
@@ -59,8 +59,8 @@ export const projects = [
     title: "SmartNotes Mobbile",
     description: "A mobile application with a sleek and intuitive interface, designed to help users effortlessly capture and organize their studies, , and important information on the go.",
     tech: ["Java", "Android Studio", "Firebase"],
-    link: "https://github.com/Justus-OO/SmartNotes",
-    external: "https://github.com/Justus-OO/SmartNotes",
+    // link: "https://github.com/Justus-OO/SmartNotes",
+    // external: "https://github.com/Justus-OO/SmartNotes",
     image: "/smartnotes.png"
   }
 

@@ -10,7 +10,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Justus Obisa | Full-Stack Software Engineer",
+  title: "Esther Mawia | Full-Stack Software Engineer",
   description: "Portfolio of a Computer Science Graduate specializing in scalable applications.",
 };
 
